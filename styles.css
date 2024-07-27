@@ -114,7 +114,7 @@ nav ul li a {
 }
 
 /* Sección de Inmuebles */
-.seccion {
+.seccion-inmuebles {
     background-color: #fff;
     border: 1px solid #ddd;
     padding: 1rem;
@@ -122,7 +122,7 @@ nav ul li a {
     box-shadow: 0 2px 4px rgba(0, 0, 0);
 }
 
-.seccion h2 {
+.seccion-inmuebles h2 {
     font-size: 1.5rem;
     margin-bottom: 1rem;
     text-align: center;
@@ -142,13 +142,13 @@ nav ul li a {
     box-shadow: 0 2px 4px rgba(0, 0, 0);
 }
 
-.seccion img {
+.seccion-inmuebles img {
     width: 100%;
     height: auto;
     border-bottom: 1px solid rgb(0, 0, 0);
 }
 
-.seccion p {
+.seccion-inmuebles p {
     width: 100%;
     font-size: 1rem;
     line-height: 1.5;
