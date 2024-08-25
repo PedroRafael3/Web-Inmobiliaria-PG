@@ -117,7 +117,7 @@ nav ul li a {
 .seccion-inmuebles {
     background-color: #fff;
     border: 1px solid #ddd;
-    padding: 1rem;
+    padding: 1.5rem;
     margin: 1rem;
     box-shadow: 0 2px 4px rgba(0, 0, 0);
 }
@@ -131,12 +131,14 @@ nav ul li a {
 .contenedor-inmuebles {
     margin: auto;
     width: 100%;
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1.5rem;
     justify-content:space-evenly;
 }
 
 .contenedor-inmuebles div {
-    max-width: 200px;
+    max-width: 100%;
     height: auto;
     border: 1px solid #ddd;
     box-shadow: 0 2px 4px rgba(0, 0, 0);
